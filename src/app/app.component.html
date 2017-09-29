@@ -1,0 +1,5 @@
+<div class="container-fluid">
+	<my-header (onMenuSelect)="onNavigate($event)"></my-header>
+	<my-main *ngIf='feature=="home"'></my-main>
+	<my-about *ngIf='feature=="about"'></my-about>
+</div>

@@ -1,0 +1,6 @@
+<!--<ul *ngFor="let val of data">
+	<li>{{val.name}}</li>
+    <li>{{val.description}}</li>
+</ul> -->
+
+<app-movie-item *ngFor= "let movie of data" [movie]="movie"></app-movie-item>
